@@ -1,0 +1,10 @@
+.home {
+    height: calc(100vh - 110px);
+    align-items: center;
+    .home-container {
+        align-items: center;
+    }
+    img {
+        background-color: transparent;
+    }
+}

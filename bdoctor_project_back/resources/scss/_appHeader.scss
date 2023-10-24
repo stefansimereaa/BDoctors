@@ -1,0 +1,23 @@
+.nav-box {
+    height: 100px;
+    .navbar {
+        background-color: #ADEFE6;
+        a {
+            color: white;
+            font-size: 22px;
+        }
+        a:hover {
+            color: black;
+        }
+        .navbar-nav .nav-link.active,
+        .navbar-nav .nav-link.show {
+            color: white;
+        }
+        .dropdown-menu {
+            background-color: #ADEFE6;
+        }
+        .dropdown-item:hover {
+            background-color: #ADEFE6;
+        }
+    }
+}

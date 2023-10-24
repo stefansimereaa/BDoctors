@@ -1,0 +1,27 @@
+.edit-style {
+    .form-check-input:checked {
+        background-color: rgb(4, 216, 197);
+        border-color: rgb(4, 216, 197);
+    }
+    .form-control:focus,
+    .form-check-input:focus {
+        border-color: rgb(4, 216, 197, 0.475);
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgb(4, 216, 197);
+    }
+    .boxing {
+        border: none;
+        border-bottom: 2px solid rgb(4, 216, 197);
+        border-radius: 0px;
+    }
+    .boxing-full {
+        border: 1px solid rgb(4, 216, 197, 0.475);
+        border-bottom: 1px solid rgb(4, 216, 197);
+    }
+    button {
+        background-color: rgb(4, 216, 197);
+        color: white;
+        font-size: 18px;
+        padding: 7px 16px;
+    }
+}
